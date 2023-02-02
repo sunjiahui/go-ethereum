@@ -244,6 +244,7 @@ func (hc *httpConn) doRequest(ctx context.Context, msg interface{}) (io.ReadClos
 			Status:     resp.Status,
 			StatusCode: resp.StatusCode,
 			Body:       body,
+			Header:     resp.Header,
 		}
 	}
 	return resp.Body, nil

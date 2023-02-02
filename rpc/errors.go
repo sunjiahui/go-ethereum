@@ -16,7 +16,10 @@
 
 package rpc
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+)
 
 // HTTPError is returned by client operations when the HTTP status code of the
 // response is not a 2xx status.
@@ -24,6 +27,7 @@ type HTTPError struct {
 	StatusCode int
 	Status     string
 	Body       []byte
+	Header     http.Header
 }
 
 func (err HTTPError) Error() string {
