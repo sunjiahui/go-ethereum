@@ -23,17 +23,17 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
 	fuzz "github.com/google/gofuzz"
+	"github.com/sunjiahui/go-ethereum/common"
+	"github.com/sunjiahui/go-ethereum/consensus/ethash"
+	"github.com/sunjiahui/go-ethereum/core"
+	"github.com/sunjiahui/go-ethereum/core/rawdb"
+	"github.com/sunjiahui/go-ethereum/core/vm"
+	"github.com/sunjiahui/go-ethereum/eth/protocols/snap"
+	"github.com/sunjiahui/go-ethereum/p2p"
+	"github.com/sunjiahui/go-ethereum/p2p/enode"
+	"github.com/sunjiahui/go-ethereum/params"
+	"github.com/sunjiahui/go-ethereum/rlp"
 )
 
 var trieRoot common.Hash

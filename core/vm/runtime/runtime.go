@@ -20,12 +20,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/sunjiahui/go-ethereum/common"
+	"github.com/sunjiahui/go-ethereum/core/rawdb"
+	"github.com/sunjiahui/go-ethereum/core/state"
+	"github.com/sunjiahui/go-ethereum/core/vm"
+	"github.com/sunjiahui/go-ethereum/crypto"
+	"github.com/sunjiahui/go-ethereum/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running
